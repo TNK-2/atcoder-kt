@@ -19,6 +19,9 @@ fun lcm(a: Long, b: Long): Long {
     return a / g * b
 }
 
+/**
+ * https://atcoder.jp/contests/abc070/tasks/abc070_c
+ */
 fun main(args: Array<String>) {
     val sc = Scanner(System.`in`)
     val n = sc.nextInt()
